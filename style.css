@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #3b2044, #461d3f, #4f1b38, #551b30, #591c27);
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: #c7c3c2;
+    /* background-color: #ff9f43; */
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#tempCalc label {
+    font-size: 30px;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+    background-color:cyan;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+[type="submit"]:hover{
+    background: #b7ab9a;
+    color: #222;
+    transition:1s;
+
+}
+#resultContainer {
+    font-size: 35px;
+}
